@@ -10,7 +10,5 @@
   #define LIB_TRANSITIVE_HEADERS_EXPORT
 #endif
 
-#define LIB_TRANSITIVE_HEADERS_CONSTANT 555
-
 LIB_TRANSITIVE_HEADERS_EXPORT void lib_transitive_headers();
 LIB_TRANSITIVE_HEADERS_EXPORT void lib_transitive_headers_print_vector(const std::vector<std::string> &strings);
